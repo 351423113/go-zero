@@ -49,3 +49,5 @@ require (
 	gopkg.in/h2non/gock.v1 v1.0.15
 	gopkg.in/yaml.v2 v2.4.0
 )
+
+replace github.com/tal-tech/go-zero v1.1.8 => github.com/351423113/go-zero v1.1.8
