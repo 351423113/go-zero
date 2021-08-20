@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/rest/httpx"
+	"github.com/351423113/go-zero/core/logx"
+	"github.com/351423113/go-zero/rest/httpx"
 )
 
 // LogContext is a context key.

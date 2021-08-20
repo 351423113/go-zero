@@ -3,10 +3,10 @@ package redis
 import (
 	"strings"
 
+	"github.com/351423113/go-zero/core/logx"
+	"github.com/351423113/go-zero/core/mapping"
+	"github.com/351423113/go-zero/core/timex"
 	red "github.com/go-redis/redis"
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/core/mapping"
-	"github.com/tal-tech/go-zero/core/timex"
 )
 
 func process(proc func(red.Cmder) error) func(red.Cmder) error {

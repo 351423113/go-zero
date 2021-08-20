@@ -6,12 +6,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tal-tech/go-zero/core/collection"
-	"github.com/tal-tech/go-zero/tools/goctl/model/sql/converter"
-	"github.com/tal-tech/go-zero/tools/goctl/model/sql/model"
-	"github.com/tal-tech/go-zero/tools/goctl/model/sql/util"
-	"github.com/tal-tech/go-zero/tools/goctl/util/console"
-	"github.com/tal-tech/go-zero/tools/goctl/util/stringx"
+	"github.com/351423113/go-zero/core/collection"
+	"github.com/351423113/go-zero/tools/goctl/model/sql/converter"
+	"github.com/351423113/go-zero/tools/goctl/model/sql/model"
+	"github.com/351423113/go-zero/tools/goctl/model/sql/util"
+	"github.com/351423113/go-zero/tools/goctl/util/console"
+	"github.com/351423113/go-zero/tools/goctl/util/stringx"
 	"github.com/zeromicro/ddl-parser/parser"
 )
 

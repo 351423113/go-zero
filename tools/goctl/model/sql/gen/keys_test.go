@@ -4,9 +4,9 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/351423113/go-zero/tools/goctl/model/sql/parser"
+	"github.com/351423113/go-zero/tools/goctl/util/stringx"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/tools/goctl/model/sql/parser"
-	"github.com/tal-tech/go-zero/tools/goctl/util/stringx"
 )
 
 func TestGenCacheKeys(t *testing.T) {

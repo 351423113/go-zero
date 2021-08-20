@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/351423113/go-zero/core/discov/internal"
+	"github.com/351423113/go-zero/core/lang"
+	"github.com/351423113/go-zero/core/logx"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/discov/internal"
-	"github.com/tal-tech/go-zero/core/lang"
-	"github.com/tal-tech/go-zero/core/logx"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/tal-tech/go-zero/tools/goctl/util"
-	"github.com/tal-tech/go-zero/tools/goctl/util/stringx"
+	"github.com/351423113/go-zero/tools/goctl/util"
+	"github.com/351423113/go-zero/tools/goctl/util/stringx"
 )
 
 const rpcTemplateText = `syntax = "proto3";

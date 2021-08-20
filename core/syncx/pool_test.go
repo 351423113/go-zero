@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/351423113/go-zero/core/lang"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/lang"
 )
 
 const limit = 10

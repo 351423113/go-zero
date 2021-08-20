@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tal-tech/go-zero/core/collection"
-	"github.com/tal-tech/go-zero/tools/goctl/model/sql/template"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
-	"github.com/tal-tech/go-zero/tools/goctl/util/stringx"
+	"github.com/351423113/go-zero/core/collection"
+	"github.com/351423113/go-zero/tools/goctl/model/sql/template"
+	"github.com/351423113/go-zero/tools/goctl/util"
+	"github.com/351423113/go-zero/tools/goctl/util/stringx"
 )
 
 func genInsert(table Table, withCache, postgreSql bool) (string, string, error) {

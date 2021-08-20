@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/tal-tech/go-zero/core/logx"
+	"github.com/351423113/go-zero/core/logx"
 )
 
 // DefaultMemProfileRate is the default memory profiling rate.

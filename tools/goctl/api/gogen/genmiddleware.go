@@ -3,9 +3,9 @@ package gogen
 import (
 	"strings"
 
-	"github.com/tal-tech/go-zero/tools/goctl/api/spec"
-	"github.com/tal-tech/go-zero/tools/goctl/config"
-	"github.com/tal-tech/go-zero/tools/goctl/util/format"
+	"github.com/351423113/go-zero/tools/goctl/api/spec"
+	"github.com/351423113/go-zero/tools/goctl/config"
+	"github.com/351423113/go-zero/tools/goctl/util/format"
 )
 
 var middlewareImplementCode = `

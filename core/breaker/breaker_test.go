@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/351423113/go-zero/core/stat"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/stat"
 )
 
 func init() {

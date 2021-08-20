@@ -2,8 +2,8 @@ package clickhouse
 
 import (
 	// imports the driver.
+	"github.com/351423113/go-zero/core/stores/sqlx"
 	_ "github.com/ClickHouse/clickhouse-go"
-	"github.com/tal-tech/go-zero/core/stores/sqlx"
 )
 
 const clickHouseDriverName = "clickhouse"

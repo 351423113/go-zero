@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/351423113/go-zero/core/logx"
+	"github.com/351423113/go-zero/zrpc/internal/mock"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/zrpc/internal/mock"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

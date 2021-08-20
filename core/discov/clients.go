@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tal-tech/go-zero/core/discov/internal"
+	"github.com/351423113/go-zero/core/discov/internal"
 )
 
 const (

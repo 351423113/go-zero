@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tal-tech/go-zero/tools/goctl/api/spec"
-	"github.com/tal-tech/go-zero/tools/goctl/api/util"
+	"github.com/351423113/go-zero/tools/goctl/api/spec"
+	"github.com/351423113/go-zero/tools/goctl/api/util"
 )
 
 func lowCamelCase(s string) string {

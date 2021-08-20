@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/351423113/go-zero/core/mathx"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/mathx"
 )
 
 const (

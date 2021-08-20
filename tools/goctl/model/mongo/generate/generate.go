@@ -4,10 +4,10 @@ import (
 	"errors"
 	"path/filepath"
 
-	"github.com/tal-tech/go-zero/tools/goctl/config"
-	"github.com/tal-tech/go-zero/tools/goctl/model/mongo/template"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
-	"github.com/tal-tech/go-zero/tools/goctl/util/format"
+	"github.com/351423113/go-zero/tools/goctl/config"
+	"github.com/351423113/go-zero/tools/goctl/model/mongo/template"
+	"github.com/351423113/go-zero/tools/goctl/util"
+	"github.com/351423113/go-zero/tools/goctl/util/format"
 )
 
 // Context defines the model generation data what they needs

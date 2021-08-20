@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/351423113/go-zero/core/fs"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/fs"
 )
 
 func TestSplitLineChunks(t *testing.T) {

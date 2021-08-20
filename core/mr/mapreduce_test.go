@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/351423113/go-zero/core/stringx"
+	"github.com/351423113/go-zero/core/syncx"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/stringx"
-	"github.com/tal-tech/go-zero/core/syncx"
 )
 
 var errDummy = errors.New("dummy")

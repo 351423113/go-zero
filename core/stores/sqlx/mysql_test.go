@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/351423113/go-zero/core/breaker"
+	"github.com/351423113/go-zero/core/logx"
+	"github.com/351423113/go-zero/core/stat"
 	"github.com/go-sql-driver/mysql"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/breaker"
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/core/stat"
 )
 
 func init() {

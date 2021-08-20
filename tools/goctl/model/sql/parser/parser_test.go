@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/351423113/go-zero/tools/goctl/model/sql/model"
+	"github.com/351423113/go-zero/tools/goctl/model/sql/util"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/tools/goctl/model/sql/model"
-	"github.com/tal-tech/go-zero/tools/goctl/model/sql/util"
 )
 
 func TestParsePlainText(t *testing.T) {

@@ -1,10 +1,10 @@
 package mongoc
 
 import (
+	"github.com/351423113/go-zero/core/stores/cache"
+	"github.com/351423113/go-zero/core/stores/mongo"
+	"github.com/351423113/go-zero/core/syncx"
 	"github.com/globalsign/mgo"
-	"github.com/tal-tech/go-zero/core/stores/cache"
-	"github.com/tal-tech/go-zero/core/stores/mongo"
-	"github.com/tal-tech/go-zero/core/syncx"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/tal-tech/go-zero/core/lang"
+	"github.com/351423113/go-zero/core/lang"
 )
 
 type (

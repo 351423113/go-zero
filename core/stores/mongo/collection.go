@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"time"
 
+	"github.com/351423113/go-zero/core/breaker"
+	"github.com/351423113/go-zero/core/logx"
+	"github.com/351423113/go-zero/core/stores/mongo/internal"
+	"github.com/351423113/go-zero/core/timex"
 	"github.com/globalsign/mgo"
-	"github.com/tal-tech/go-zero/core/breaker"
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/core/stores/mongo/internal"
-	"github.com/tal-tech/go-zero/core/timex"
 )
 
 const slowThreshold = time.Millisecond * 500

@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/351423113/go-zero/core/breaker"
+	"github.com/351423113/go-zero/core/mapping"
 	red "github.com/go-redis/redis"
-	"github.com/tal-tech/go-zero/core/breaker"
-	"github.com/tal-tech/go-zero/core/mapping"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"github.com/tal-tech/go-zero/core/logx"
+	"github.com/351423113/go-zero/core/logx"
 )
 
 // ErrPaddingSize indicates bad padding size.

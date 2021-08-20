@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"path/filepath"
 
+	"github.com/351423113/go-zero/core/errorx"
+	"github.com/351423113/go-zero/tools/goctl/api/gogen"
+	"github.com/351423113/go-zero/tools/goctl/docker"
+	"github.com/351423113/go-zero/tools/goctl/kube"
+	mongogen "github.com/351423113/go-zero/tools/goctl/model/mongo/generate"
+	modelgen "github.com/351423113/go-zero/tools/goctl/model/sql/gen"
+	rpcgen "github.com/351423113/go-zero/tools/goctl/rpc/generator"
+	"github.com/351423113/go-zero/tools/goctl/util"
 	"github.com/logrusorgru/aurora"
-	"github.com/tal-tech/go-zero/core/errorx"
-	"github.com/tal-tech/go-zero/tools/goctl/api/gogen"
-	"github.com/tal-tech/go-zero/tools/goctl/docker"
-	"github.com/tal-tech/go-zero/tools/goctl/kube"
-	mongogen "github.com/tal-tech/go-zero/tools/goctl/model/mongo/generate"
-	modelgen "github.com/tal-tech/go-zero/tools/goctl/model/sql/gen"
-	rpcgen "github.com/tal-tech/go-zero/tools/goctl/rpc/generator"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
 	"github.com/urfave/cli"
 )
 
